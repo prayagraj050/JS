@@ -30,4 +30,5 @@ let myObj = {        // it is an object
 
 const myFunction = function(){       // variable wala tarika
     console.log("Hare Krisna");      // dataype of function id
-}                                    // object funn
+}                                    // object function
+console.log(typeof myFunction);
