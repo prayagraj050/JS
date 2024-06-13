@@ -17,8 +17,8 @@ const anotherId = Symbol('123')
 
 const bigNumber = 6868798570981734546n
 // console.log(typeof(bigNumber));
-
-//  Reerence (Non primitive)
+ 
+//  Reference (Non primitive)
 
 // Array, Objects, Functions
 
@@ -32,3 +32,28 @@ const myFunction = function(){       // variable wala tarika
     console.log("Hare Krisna");      // dataype of function id
 }                                    // object function
 console.log(typeof myFunction);
+
+
+// ***********************************************************************
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "prayagrajdot.com"
+
+let anotherName = myYoutubeName
+anotherName = "raj"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "prayag@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "raj@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
